@@ -1,0 +1,67 @@
+# tach — exact, acyclic top-level package boundaries.
+
+source_roots = ["src"]
+exact = true
+forbid_circular_dependencies = true
+
+exclude = [
+    "**/__pycache__",
+    "**/*.egg-info",
+    "**/tests",
+    "**/test_*.py",
+    "build",
+    "dist",
+]
+
+[[modules]]
+path = "league_predictor"
+depends_on = []
+
+[[modules]]
+path = "league_predictor.analytics"
+depends_on = ["league_predictor", "league_predictor.db", "league_predictor.predraft"]
+
+# The dashboard's live tabs read the model domains directly.
+[[modules]]
+path = "league_predictor.dashboard"
+depends_on = ["league_predictor", "league_predictor.analytics", "league_predictor.db", "league_predictor.draft_grading", "league_predictor.predraft", "league_predictor.vocab"]
+
+[[modules]]
+path = "league_predictor.db"
+depends_on = []
+
+[[modules]]
+path = "league_predictor.draft_grading"
+depends_on = ["league_predictor", "league_predictor.vocab", "league_predictor.db"]
+
+# Post-draft fusion composes the served and draft tables; both lifecycles rebuild it.
+[[modules]]
+path = "league_predictor.postdraft"
+depends_on = ["league_predictor", "league_predictor.db"]
+
+[[modules]]
+path = "league_predictor.ingestion"
+depends_on = ["league_predictor", "league_predictor.db", "league_predictor.vocab"]
+
+# Dependency-leaf shared game/draft vocabulary — stdlib-only, importable by everyone.
+[[modules]]
+path = "league_predictor.vocab"
+depends_on = []
+
+# The lifecycle wraps the model math below it; only the orchestrator imports it.
+[[modules]]
+path = "league_predictor.lifecycle"
+depends_on = ["league_predictor", "league_predictor.db", "league_predictor.predraft", "league_predictor.draft_grading", "league_predictor.postdraft"]
+
+[[modules]]
+path = "league_predictor.orchestrator"
+depends_on = ["league_predictor.analytics", "league_predictor.db", "league_predictor.ingestion", "league_predictor.dashboard", "league_predictor", "league_predictor.lifecycle", "league_predictor.upcoming"]
+
+# Upcoming serves the live served model and registers its id through the lifecycle.
+[[modules]]
+path = "league_predictor.upcoming"
+depends_on = ["league_predictor", "league_predictor.predraft", "league_predictor.lifecycle"]
+
+[[modules]]
+path = "league_predictor.predraft"
+depends_on = ["league_predictor", "league_predictor.db", "league_predictor.vocab"]

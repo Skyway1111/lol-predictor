@@ -1,0 +1,1431 @@
+{
+  "action_blocking": [
+    "airborne",
+    "berserk",
+    "charm",
+    "fear",
+    "flee",
+    "immobilize",
+    "knockback",
+    "knockup",
+    "polymorph",
+    "pull",
+    "root",
+    "sleep",
+    "snare",
+    "stasis",
+    "stun",
+    "suppression",
+    "taunt"
+  ],
+  "declarations": {
+    "Aatrox": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Ahri": {
+      "E": "immobilize",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Akali": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "none"
+    },
+    "Akshan": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Alistar": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "immobilize",
+      "R": "none",
+      "W": "immobilize"
+    },
+    "Ambessa": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "Q2": "none",
+      "R": "stun",
+      "W": "none"
+    },
+    "Amumu": {
+      "E": "none",
+      "P": "none",
+      "Q": "stun",
+      "R": "stun",
+      "W": "none"
+    },
+    "Anivia": {
+      "E": "none",
+      "Q": "per_part",
+      "R": "per_part",
+      "W": "knockback"
+    },
+    "Annie": {
+      "E": "none",
+      "P": "stun",
+      "Q": "per_part",
+      "R": "per_part",
+      "W": "per_part"
+    },
+    "Aphelios": {
+      "E": "none",
+      "P": "per_part",
+      "Q": "per_part",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Ashe": {
+      "E": "none",
+      "P": "slow",
+      "Q": "none",
+      "R": "stun",
+      "W": "slow"
+    },
+    "Aurelion Sol": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Aurora": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Azir": {
+      "E": "none",
+      "Q": "slow",
+      "R": "knockback",
+      "W": "none"
+    },
+    "Bard": {
+      "E": "none",
+      "P": "per_part",
+      "Q": "slow",
+      "R": "stasis",
+      "W": "none"
+    },
+    "Bel'Veth": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "knockup"
+    },
+    "Blitzcrank": {
+      "E": "knockup",
+      "Q": "immobilize",
+      "R": "silence",
+      "W": "none"
+    },
+    "Brand": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Braum": {
+      "E": "none",
+      "P": "per_part",
+      "Q": "slow",
+      "R": "knockup",
+      "W": "none"
+    },
+    "Briar": {
+      "E": "knockback",
+      "P": "none",
+      "Q": "stun",
+      "R": "none",
+      "W": "none"
+    },
+    "Caitlyn": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "root"
+    },
+    "Camille": {
+      "E": "immobilize",
+      "Q": "none",
+      "Q2": "none",
+      "R": "knockback",
+      "W": "slow"
+    },
+    "Cassiopeia": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "per_part",
+      "W": "slow"
+    },
+    "Cho'Gath": {
+      "E": "slow",
+      "P": "none",
+      "Q": "knockup",
+      "R": "none",
+      "W": "silence"
+    },
+    "Corki": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Darius": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Diana": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "pull",
+      "W": "none"
+    },
+    "Dr. Mundo": {
+      "E": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Draven": {
+      "E": "airborne",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Ekko": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Elise": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Evelynn": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Ezreal": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Fiddlesticks": {
+      "E": "slow",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "none"
+    },
+    "Fiora": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Fizz": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "knockback",
+      "W": "none"
+    },
+    "Galio": {
+      "E": "knockup",
+      "P": "none",
+      "Q": "none",
+      "R": "knockback",
+      "W": "taunt"
+    },
+    "Gangplank": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Garen": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Gnar": {
+      "E": "slow",
+      "P": "none",
+      "Q": "slow",
+      "R": "knockback",
+      "W": "stun"
+    },
+    "Gragas": {
+      "E": "knockback",
+      "P": "none",
+      "Q": "slow",
+      "R": "knockback",
+      "W": "none"
+    },
+    "Graves": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Gwen": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Hecarim": {
+      "E": "knockback",
+      "P": "none",
+      "Q": "none",
+      "R": "fear",
+      "W": "none"
+    },
+    "Heimerdinger": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Hwei": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "per_part",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Illaoi": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Irelia": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Ivern": {
+      "E": "slow",
+      "P": "none",
+      "Q": "root",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Janna": {
+      "E": "none",
+      "P": "none",
+      "Q": "knockup",
+      "R": "knockback",
+      "W": "slow"
+    },
+    "Jarvan IV": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "knockback",
+      "W": "slow"
+    },
+    "Jax": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Jayce": {
+      "E": "knockback",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "none"
+    },
+    "Jhin": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "root"
+    },
+    "Jinx": {
+      "E": "root",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "K'Sante": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "stun",
+      "W": "per_part"
+    },
+    "Kai'Sa": {
+      "E": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Kalista": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "airborne",
+      "W": "none"
+    },
+    "Karma": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Karthus": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Kassadin": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Katarina": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Kayle": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Kayn": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Kennen": {
+      "E": "per_part",
+      "P": "stun",
+      "Q": "per_part",
+      "R": "per_part",
+      "W": "per_part"
+    },
+    "Kha'Zix": {
+      "E": "none",
+      "P": "slow",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Kindred": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Kled": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "knockback",
+      "W": "none"
+    },
+    "Kog'Maw": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "LeBlanc": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Lee Sin": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "knockback",
+      "W": "none"
+    },
+    "Leona": {
+      "E": "root",
+      "P": "none",
+      "Q": "stun",
+      "R": "slow",
+      "W": "none"
+    },
+    "Lillia": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "sleep",
+      "W": "none"
+    },
+    "Lissandra": {
+      "E": "none",
+      "P": "per_part",
+      "Q": "slow",
+      "R": "slow",
+      "W": "root"
+    },
+    "Locke": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "slow",
+      "W": "none"
+    },
+    "Lucian": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Lulu": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "knockup",
+      "W": "per_part"
+    },
+    "Lux": {
+      "E": "slow",
+      "P": "none",
+      "Q": "root",
+      "R": "none",
+      "W": "none"
+    },
+    "Malphite": {
+      "E": "cripple",
+      "P": "none",
+      "Q": "slow",
+      "R": "knockup",
+      "W": "none"
+    },
+    "Malzahar": {
+      "E": "none",
+      "P": "none",
+      "Q": "silence",
+      "R": "suppression",
+      "W": "none"
+    },
+    "Maokai": {
+      "E": "slow",
+      "P": "none",
+      "Q": "slow",
+      "R": "root",
+      "W": "root"
+    },
+    "Master Yi": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Mel": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Milio": {
+      "E": "none",
+      "P": "none",
+      "Q": "stun",
+      "R": "none",
+      "W": "none"
+    },
+    "Miss Fortune": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Mordekaiser": {
+      "E": "pull",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none",
+      "passive_darkness_rise": "none"
+    },
+    "Morgana": {
+      "E": "none",
+      "P": "none",
+      "Q": "root",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Naafiri": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Nami": {
+      "E": "slow",
+      "P": "none",
+      "Q": "airborne",
+      "R": "knockup",
+      "W": "none"
+    },
+    "Nasus": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Nautilus": {
+      "E": "slow",
+      "P": "root",
+      "Q": "immobilize",
+      "R": "immobilize",
+      "W": "none"
+    },
+    "Neeko": {
+      "E": "root",
+      "P": "none",
+      "Q": "none",
+      "R": "stun",
+      "W": "none"
+    },
+    "Nidalee": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Nilah": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Nocturne": {
+      "E": "fear",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Nunu & Willump": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "immobilize"
+    },
+    "Olaf": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Orianna": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "stun",
+      "W": "slow"
+    },
+    "Ornn": {
+      "E": "none",
+      "Q": "slow",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Pantheon": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "stun"
+    },
+    "Poppy": {
+      "E": "immobilize",
+      "P": "none",
+      "Q": "slow",
+      "R": "knockup",
+      "W": "knockup"
+    },
+    "Pyke": {
+      "E": "stun",
+      "P": "none",
+      "Q": "pull",
+      "R": "none",
+      "W": "none"
+    },
+    "Qiyana": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "stun",
+      "W": "none"
+    },
+    "Quinn": {
+      "E": "knockback",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Rakan": {
+      "E": "none",
+      "Q": "none",
+      "R": "charm",
+      "W": "knockup"
+    },
+    "Rammus": {
+      "E": "taunt",
+      "P": "none",
+      "Q": "immobilize",
+      "R": "slow",
+      "W": "per_part"
+    },
+    "Rek'Sai": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "knockup"
+    },
+    "Rell": {
+      "E": "none",
+      "P": "none",
+      "Q": "stun",
+      "R": "pull",
+      "W": "immobilize"
+    },
+    "Renata Glasc": {
+      "E": "slow",
+      "P": "none",
+      "Q": "root",
+      "R": "berserk",
+      "W": "none"
+    },
+    "Renekton": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "stun"
+    },
+    "Rengar": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Riven": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "stun"
+    },
+    "Rumble": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Ryze": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Samira": {
+      "E": "none",
+      "P": "per_part",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Sejuani": {
+      "E": "immobilize",
+      "P": "none",
+      "Q": "knockup",
+      "R": "stun",
+      "W": "per_part"
+    },
+    "Senna": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "root"
+    },
+    "Seraphine": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "charm",
+      "W": "none"
+    },
+    "Sett": {
+      "E": "pull",
+      "P": "none",
+      "Q": "none",
+      "R": "suppression",
+      "W": "none"
+    },
+    "Shaco": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "per_part",
+      "W": "immobilize"
+    },
+    "Shen": {
+      "E": "taunt",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Shyvana": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "fear",
+      "W": "none"
+    },
+    "Singed": {
+      "E": "airborne",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Sion": {
+      "E": "slow",
+      "P": "none",
+      "Q": "per_part",
+      "R": "slow",
+      "W": "none"
+    },
+    "Sivir": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Skarner": {
+      "E": "stun",
+      "P": "none",
+      "Q": "slow",
+      "R": "suppression",
+      "W": "slow"
+    },
+    "Smolder": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Sona": {
+      "E": "none",
+      "P": "per_part",
+      "Q": "none",
+      "R": "stun",
+      "W": "none"
+    },
+    "Soraka": {
+      "E": "root",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Swain": {
+      "E": "root",
+      "P": "none",
+      "Q": "none",
+      "R": "per_part",
+      "W": "slow"
+    },
+    "Sylas": {
+      "E": "immobilize",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Syndra": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "Q2": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Tahm Kench": {
+      "P": "none",
+      "Q": "per_part",
+      "R": "suppression",
+      "W": "immobilize"
+    },
+    "Taliyah": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "per_part",
+      "R": "knockback",
+      "W": "knockback"
+    },
+    "Talon": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Taric": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Teemo": {
+      "E": "none",
+      "P": "none",
+      "Q": "blind",
+      "R": "slow",
+      "W": "none"
+    },
+    "Thresh": {
+      "E": "knockback",
+      "P": "none",
+      "Q": "immobilize",
+      "R": "slow",
+      "W": "none"
+    },
+    "Tristana": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "immobilize",
+      "W": "slow"
+    },
+    "Trundle": {
+      "E": "slow",
+      "P": "none",
+      "Q": "slow",
+      "R": "none",
+      "W": "none"
+    },
+    "Tryndamere": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Twisted Fate": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Twitch": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Udyr": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "none"
+    },
+    "Urgot": {
+      "E": "immobilize",
+      "P": "none",
+      "Q": "slow",
+      "R": "slow",
+      "W": "none"
+    },
+    "Varus": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "root",
+      "W": "none"
+    },
+    "Vayne": {
+      "E": "knockback",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Veigar": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Vel'Koz": {
+      "E": "knockup",
+      "P": "none",
+      "Q": "slow",
+      "R": "slow",
+      "W": "none"
+    },
+    "Vex": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Vi": {
+      "E": "none",
+      "Q": "knockback",
+      "R": "knockup",
+      "W": "none"
+    },
+    "Viego": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "slow",
+      "W": "stun"
+    },
+    "Viktor": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Vladimir": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Volibear": {
+      "E": "slow",
+      "P": "none",
+      "Q": "stun",
+      "R": "slow",
+      "W": "none"
+    },
+    "Warwick": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "suppression",
+      "W": "none"
+    },
+    "Wukong": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "knockup"
+    },
+    "Xayah": {
+      "E": "per_part",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Xerath": {
+      "E": "stun",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Xin Zhao": {
+      "E": "slow",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "slow"
+    },
+    "Yasuo": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "knockup",
+      "W": "none"
+    },
+    "Yone": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "pull",
+      "W": "none"
+    },
+    "Yorick": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "per_part"
+    },
+    "Yunara": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Yuumi": {
+      "E": "none",
+      "P": "none",
+      "Q": "slow",
+      "R": "slow",
+      "W": "none"
+    },
+    "Zaahen": {
+      "E": "none",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "stun"
+    },
+    "Zac": {
+      "E": "knockup",
+      "P": "none",
+      "Q": "slow",
+      "R": "per_part",
+      "W": "none"
+    },
+    "Zed": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Zeri": {
+      "E": "none",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "slow"
+    },
+    "Ziggs": {
+      "E": "slow",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "knockback"
+    },
+    "Zilean": {
+      "E": "slow",
+      "P": "none",
+      "Q": "per_part",
+      "R": "none",
+      "W": "none"
+    },
+    "Zoe": {
+      "E": "sleep",
+      "P": "none",
+      "Q": "none",
+      "R": "none",
+      "W": "none"
+    },
+    "Zyra": {
+      "E": "root",
+      "P": "none",
+      "Q": "none",
+      "R": "knockup",
+      "W": "per_part"
+    }
+  },
+  "displacement": [
+    "airborne",
+    "knockback",
+    "knockup",
+    "pull"
+  ],
+  "generated": "2026-09-12",
+  "module_sha256": {
+    "Aatrox": "98356d3a8ae9da3785bae2a6809e15b3652c65b997675d3cc01062a36d2ff61b",
+    "Ahri": "d371f580650e5cb55e7251b469b676e98690a0147e40fccc5a95aa566ed539ea",
+    "Akali": "3d55aca137740ae9ae2d7bf9725c22e9d25aef43fde282e5ef5561bd6e62634e",
+    "Akshan": "53e98e36be2c287dad9ec94f5246d2a6316ff59a977a796014a04001a15be997",
+    "Alistar": "ead08347920aed2f5de5ea6ebb52f7ad51aa74a1baefd5baf267015cd423b674",
+    "Ambessa": "10d53fef1e31c02586dc885a68aa1cfcab730d229fcdfa18921c83e444041123",
+    "Amumu": "0973f07c61c9041c7a1a90d582311576af3d3c64316a3a50596a8d4db65dbeb7",
+    "Anivia": "54b94a3527732a93ccfa54a0ba31c6d2ccf8f1e469998f47c635bc3579db0377",
+    "Annie": "b41ce70f304ab5058a1413dc164ed63803a46cf679e4ee306e1ff1f456b64343",
+    "Aphelios": "6f5de69b27de864747b2db1df25454faacebc00855f7315e5ab913eb3b142926",
+    "Ashe": "0960ce3a4473b0b6ab05db985e56b0958d1a9d62b7c52a3ea4769981d69fa604",
+    "Aurelion Sol": "bab2b9655b9912e8a7249a03186ec49135e96490f45c637f4e01fb789d64c0ad",
+    "Aurora": "4ffc8ea3ab43c3ab074453ed8eade16f712a0f308eb780d518d7aa33ef16df99",
+    "Azir": "4d1f80995da22197351d5225a156ec4a223a305337772c23eecb5008ef9ad33b",
+    "Bard": "a45e53d7b8d4ca5692aa5a4d5dd5e53f6aa3cecd22c7fd244c3df06385266f81",
+    "Bel'Veth": "7d3bdc214d9126d31219d522f234da4031f959e99003669365e8f8cc4b041cca",
+    "Blitzcrank": "ebf829822c5c4f34fa3eb77ec4c35f0a5d9aceeb5fce12700e79b4f4792d2d18",
+    "Brand": "a9ae26b80542d913e5a2f23d1d16b2391ff3a39d8df822674282e1880ef688fe",
+    "Braum": "c6e9f67ad24615b24156346266f27f7c73592e0f70c3e4f09275fc4951f79b49",
+    "Briar": "faf2df4f2d964bfb83944c0686aa9ef1662f80a9fae59d5334a3aa11e5fabb2d",
+    "Caitlyn": "769537e727d68ffac32d6b10100012e97829cf2b64613c18642d9dc4aa96e237",
+    "Camille": "ca3293c3ad7c3240037bff20962d0269b1bf78440a7c80b68456354810078c1a",
+    "Cassiopeia": "698893a087083a8fe2e983f4780e372e9349ad0379163d800db00568bac68c9a",
+    "Cho'Gath": "66cefa7caa55e1d806aa6894cbcc915b67df50b4ef313efc64fc98f2c5467c61",
+    "Corki": "68ea8cdd5f7f07b8bebab98f534021a34d5ca0cd7744d454eb9ba262b5e62dae",
+    "Darius": "0474ec1b750bf1e13bf5bd5be3802e706afff85064ec89f8233922637f5c09fb",
+    "Diana": "78c0d22c016fedee42232c8a3c26121f28d97a66bf6789babc1a4cf387f38080",
+    "Dr. Mundo": "198097c920f174f30c843620cd0cbf639f54bb9c0e85a29dfd64295b71a057b7",
+    "Draven": "5e99a5c30212faad72ebddf8ef09c5ad8952e18f369b45aa2a1501982146392b",
+    "Ekko": "86fc79d777d6b8ca78f5309ca3a0d068bfec681f30c790c3a8e4449fb23cca23",
+    "Elise": "bd240236a40745fae1f5943a3e789c1b53989f352c48eac2615b76d7128b2087",
+    "Evelynn": "02cafc2233469fd1d91c8db0448da6d4682de0df348ee98ac66b0fa8aed74166",
+    "Ezreal": "0ec4e5108e71eec2416efc9bbe67800116ac7faf45741adb53da7339ed152657",
+    "Fiddlesticks": "8030199b312297e6608d1cb9aed26921981e8f07a4d58f3756ad66acfb24b95c",
+    "Fiora": "632a6927a6420d229443ee6f9e1238c48900173d9e43d052fc7be59df0822fab",
+    "Fizz": "8f7b8b53583a62821a3f4b1beee9d8ed885d2db744c1a74b4da1c0b0c2d24384",
+    "Galio": "96816246384c27080bcada4074225db0c4c11b1298faa0b7b8210db6122d8177",
+    "Gangplank": "c0486f3770613f02994580c124cff2ccb62bfe5231331ec3175cdb06ac869886",
+    "Garen": "e9652c2e3da83bcf2e3362c0b4d65c96e5ba6dcfe01e38c8b65f2af219917d8c",
+    "Gnar": "4bd091fc051938b980a56523418f886e44728c298ce7532e5aeb82664d701f7f",
+    "Gragas": "e68b42f31c2545e147dc406d9e22308683f8af53114170c2ad36268c7cec307c",
+    "Graves": "098fb80436ea9b7eb0191790c8e3891cbe8905d3892951e902b1ab0bd76d7b36",
+    "Gwen": "097b2aec41b020cd8d551287a5b1f703772298ba84a8c30e2d4ba8bc0f2ddbde",
+    "Hecarim": "57bf68fa9c625056c288e61ea9d1cbcec477f5bd6a1034e3018b68722db82aa3",
+    "Heimerdinger": "79e0d0912f5ca86331753970c37721dc7e6836fc30e472bc9684df49afd5cd12",
+    "Hwei": "69d693275392c07b717b7e7ef2e2379f22a7ae8487f8ec6e70ec60e63dfdb148",
+    "Illaoi": "ec394f77a075992a788d634de901b53e08b05f6a94170df3a2bbb55f145b0f38",
+    "Irelia": "66f642b34189e3a0155c0d31fb7b91505e9163d1f098d83d907ed3ecb5d9cf3c",
+    "Ivern": "aabc8a334fb60edaf40766ccaba51028995f55a2e68aca5e3616e26761da457c",
+    "Janna": "31400d705cce22e6e2c2008ec147f19c533b18d541040f6c00ec4173c0565b6d",
+    "Jarvan IV": "afc6fb74db5da322c6a11d57d647190e24dadd54620fbe48514fc524ec627d80",
+    "Jax": "8653b5c5a0fe8c505e602dfeaaf3e91ae09a6fc7a258af732d622c1bb47c5732",
+    "Jayce": "e197ea8710914d0a15088a5120f0faaeb2a65c9481670ac48a1ee29008319a4c",
+    "Jhin": "3de97a5c49e1345ae46b19056eea60a9cbe0f62d5f8ccf78b06197a0583d26c4",
+    "Jinx": "bbcca262bc6ed50281297ae8ad28406955c920c6c3c8193c3ab4023176398fed",
+    "K'Sante": "6852853f5fcf18e68f090150f0b5b8552dd261b7801b3ef7a141822128945297",
+    "Kai'Sa": "9a831c53661e849c26fd0cbe6ca45a6b8e4b16f8c7c314feedfcf116d29d30db",
+    "Kalista": "f0b0fc18b14bc77564af6c90da69a0fb1729582144865036a16c5f5708638b2d",
+    "Karma": "5447b57cdfbbee3837ea7678cb2a0e4b5d2c38935e6e845b7afda5618fb929c3",
+    "Karthus": "63cd85912b1d267e8a9125216a8ccc3aa0d88fbc6ac6e3ac78b2dafa125e5f55",
+    "Kassadin": "29c6a8778ef4c4fc9f9003c5d9e1cc9e1aba30578abfa1efa63865319c3167d1",
+    "Katarina": "f977ad7c5f0677508413d54335f9c26da30c5f2f5e5d5e3751e00f59bda6356f",
+    "Kayle": "63bfc76c1115cccac712f0a2c118b7c79a1d5d8e633ccf334c32afff2f1d2ef5",
+    "Kayn": "10172bc15b4fc2ac570c33bbacf29c09be0c6a333a429ff0712988b61e0ef004",
+    "Kennen": "5e63dcef8de99eb7262098ce10ce72d98d67300c90a6dd3939e713034a210485",
+    "Kha'Zix": "82b86f9971bfe8b19b1a903a2f452bcafe790879cddbe7ea4fa7dd9383d6ac0e",
+    "Kindred": "8c67a70ec1edb2e871088eed7cac2fbe888842b3b4a398dc6e0f95f32c2e666f",
+    "Kled": "3fbe0acaa6dfece81fd222458974081e3cace67e4e0b442244d2dcab8c276374",
+    "Kog'Maw": "51383ba6c1dde14746f426b6c8f984e1efb93ebbe4781d4fa92803546e5e40be",
+    "LeBlanc": "ce19a78d3fc77c4ddc4ce9c0327eb019ccb4c7aae221a4210754b75d7b3da36c",
+    "Lee Sin": "b7cd3b69c83f62ddb43e74bf001673d9a65ac9f2ad357d98f4c5c1b3c7c55f2b",
+    "Leona": "a82636f2b4a93d8f56bd41cee53963ac17743b025a2b69fdc32907545749f7cc",
+    "Lillia": "4de683d9be58aaf9d37007518cf9eb0b76d8f2a3ce8e792e1e92317ff6eb3a87",
+    "Lissandra": "fdb3873fb44a4a4e770b042c6d17a19330b78f18a8364665a02a7ca14ebc0ebb",
+    "Locke": "8f88c238c1f5ab311880cf2724c6e07814761ef0561b5b2cfad296a9c2f1dcf2",
+    "Lucian": "e7bb0c34334f3238f300d81b390d210b842d5c957c15575e3f507bd4478f40b9",
+    "Lulu": "c134cbfb46d314982179f982c4fd03d01b89c777bfa08c542bb5f1bffb3c5edd",
+    "Lux": "7fc311960f606128a13a227e8193844ee2ba6d37cb22124b87197a21ea1a8cef",
+    "Malphite": "a314f330369948d3dad4c85327aecc854ebd6ec385a93a32e03f31ba55e0df0a",
+    "Malzahar": "ad48925d59b4186eb3da2ba3af104e1eb656b1620f01798d8774ac542e560594",
+    "Maokai": "e7412e9ad15c92ddc43970829162cd8efcf1290d0ab34f31c16037ea376f0c11",
+    "Master Yi": "e2dbce3578fe7e9a3b880cd15ba99c20c61a95bfee73d2150353f7f1adea4535",
+    "Mel": "2e403866a29e5862c560b831ab74c6b26df952bda777ff42102a22735449c002",
+    "Milio": "d5b379442cc2729ab596bd4cc54968be202f17e714550998ef52f74532b93762",
+    "Miss Fortune": "37aa24f6f2a34db7889df83d0e3523c224875282f7d68e052399664ad670dd76",
+    "Mordekaiser": "eae46a3458f9c3a1f50bf9ccfdc1f98da265ecef2467cd10438206d97042d7e9",
+    "Morgana": "a25097788446ea32583d885b96e49cad3982721f10fead5dadca3ce2b6564659",
+    "Naafiri": "0527afd6e202dfbb05b0d0b67faeb1e17b98228eea629d9211ccc00565dbe393",
+    "Nami": "90c7ee053e1abffe97a3d29dfb3e90aca786fabc56e2dca9987ac119613d7d40",
+    "Nasus": "a1029bfb8ea57ab55e8f079e446c5c00328268f19ed848b2bd101fc14787534d",
+    "Nautilus": "247c9328d39e8e0364f2cd2a3a297f3315b591e485f180315b5de9243d4e1436",
+    "Neeko": "79f2d330cbf47428aa861e285c2dfbb5766a06af8d34316020f6ea505d36aff2",
+    "Nidalee": "97f2c2007b54c5190671287cd08ba12e89e099a32c2cfa929db8ef31e1923962",
+    "Nilah": "1740aafc41327993bae09efc23a4ccf26983d83dc0feab357f75f9caf54363e9",
+    "Nocturne": "3bf8f1e75c1c0d5d5707e0d7927832c5f44bb770b67699061d020c6f6b0b0831",
+    "Nunu & Willump": "fe8772a77593ff90fe19264bfe1535cd1bb757505db4425970bc64d6c30a597f",
+    "Olaf": "3bac4f0fc877181ee6ccef5680b95c4d70d3003b3e75d6b57b9deb549b243140",
+    "Orianna": "3d14071b398e5d235432d636ce681874d63b725e97823b4de6b7992437619d0c",
+    "Ornn": "96daa21beac0dd47501b0f6cf297a3a402f31e93683a19814f6c1dae12a67afa",
+    "Pantheon": "af81691d6ca1543d64f1b734537a782eaf8802aaa88a6f2d4a32a249d7ed1ab6",
+    "Poppy": "a62259fe918550de102e8abf1880969033f4996ef89b99183f2feae334d32534",
+    "Pyke": "fbd276e4898b3b3b563e32ab2262dcfad0500170af374480227d64bd9cd7c09d",
+    "Qiyana": "0fa737d74dc2b4775ab7986ffd8ff97d53905de53f114a5ba2d4f8e1b46cdbfb",
+    "Quinn": "097af91507399ff59633d82c7155f80f7da946d7ab6db759c6acbe1873a020e4",
+    "Rakan": "a8a25affbc298f24da0fc8f87fefd37b7bcc52e90831aff6b07c568ea358c83c",
+    "Rammus": "60562349ff7a3982d097d08a74e680c880703acfb2f42297c54b04683aa537da",
+    "Rek'Sai": "ab84928796e4866e25a3fb71e9d71180c427eeb21543bdd2266a18766f1841f0",
+    "Rell": "c9d76e115dc40c5e74d89fb44dd038935e035735b911e489a628ff8bb3d9b8de",
+    "Renata Glasc": "a59ee613108d8f30436519f0210266faf09d837a7889f7cff6591f8c9e7dc5ea",
+    "Renekton": "92607addb13ef613a3513332b5998186d6d550a4de85773b234418f1f71e146d",
+    "Rengar": "394a911e953fc39592108eceb9c718d4dedde2a4941b5be2df3e9184f598de75",
+    "Riven": "cc9bd29182058ec9d1c41f01103e9e3304019a85b1e3751afa5ad0555cb0c8c2",
+    "Rumble": "caab8ca7c04bc17ce2002eab1be87fccbcaee23fff0f09877c795d7b0f5905fd",
+    "Ryze": "ffa4a7500024188aa1623195cbb589113bd8c5a2dd12be500a84f0fc67c15379",
+    "Samira": "1804a07ff87fbd75340d3444d0e569b23f4857ab6516c48096019bad1db30d09",
+    "Sejuani": "f699acbb36b8cc6a9824a467dc449f2463ef293ea8cd62a46892c0bdc1abffee",
+    "Senna": "88691ffe896376b2bf7361b7e9f85f2a6f88a40323177e68e0035c84620e7995",
+    "Seraphine": "d8f23c4a7f95ddb03d36e1409b84c923fdef62c1773baff4c590b452080c69c3",
+    "Sett": "3809d832ff67860e9735ce1fdd68eb285ce589ac4c8bc953556458d2eeb683fd",
+    "Shaco": "1675f1cb3e5cf10cd5a5551bf69455b894d28f1bcc051329aaca4af402af5535",
+    "Shen": "d45d5e583ed22be952dd81c03f7ae0e37feb7c98c9ddd3961d48bcbf7ddbc374",
+    "Shyvana": "8abea728d420b888381adfbea69920c089557c71dc2594d0e26eafdf70c8f6e9",
+    "Singed": "31ca703e02d456a8b731f67c1a724612c84f6eb6a5fcac82730e6a8437ed2629",
+    "Sion": "dc3244f5bf61101646b2786715d4dd9a8823271d9e8aebfd381e22acda6406e4",
+    "Sivir": "17041ebfa8d2e98abdcb82c3959e6a9ec1d88de53b6b7076b831b6492dc834ed",
+    "Skarner": "adbedbd5bf6e9c9db4186d1f4622f715296e2fe3446bb169c94ec95ddef13c4d",
+    "Smolder": "b21c99bacc91c6a66aa1407af3ae3c72808f800434099f06c29181e29f6cae98",
+    "Sona": "c5b9e7cd7aa974bf1da643c9a4ec04a0d57b89ccefb2987f60813a447fe01104",
+    "Soraka": "5edd080f3c21360d246ffa466fd0486361689dac7ae7ff362c15c1af1ee4c9f7",
+    "Swain": "775717e7e0d4bea71ee8046382740ec4593d50f295741a42e98fa51101ca9e82",
+    "Sylas": "c3da6ec74d7f6ea7025e90633c8b483560cb15afaba9777956644574d5b10f51",
+    "Syndra": "571b79488b00b3e2cbd72b7658101fdff597c10c98ca00e569f7b038e4b066ef",
+    "Tahm Kench": "dea02062d851309911b256d5d427561867881b874b31dfc188158f1f6ca662c7",
+    "Taliyah": "4feff35bc4569264bf21d6fe68bbb2bfab8dc90c8592e9cc3ed159c834fb984a",
+    "Talon": "b1f91123ff8ea98bc1dda8746dc85dbd35ff90b627e525de58a9d59b4423e79d",
+    "Taric": "67c7cf201af7a12142140b04885e47aa3026d1be21b02b0af7d4c3c3cb88ed4d",
+    "Teemo": "fc11e967e6e908026188460d2ce755108caefc93412a7ad15d4d1d636c3084d5",
+    "Thresh": "d8c90a0a12185be5b9124b7e0e3b63878de562c7edf71651078bdfbb95611106",
+    "Tristana": "e4bac6714bef6d2752be4f1b606460e0dd1ee9984bef4a14fa684c7c4e7f8d5e",
+    "Trundle": "bb698892c5faf9aadf59a15c5d61464467cdaa0aa34b8d98f1ba63aec1f5ff9b",
+    "Tryndamere": "d96b1fa953d18ac56c90cc345639e0712949787497301ade455aa0b4e767e245",
+    "Twisted Fate": "5a867d7c0df8c36cf1737db6dbe06c01d904047adb4f270c17fde8d6a6bd43e6",
+    "Twitch": "bdff80555f402702ff28695734b22c084e42a2ecbca8bcfa342b68d0a79f0f59",
+    "Udyr": "39d8630917f13f05d2f972611b3adf684522c0211adc16d1ba13994534a3d8f9",
+    "Urgot": "457d3e602e520754d73990ae1530d0f58578e04627819a81bfb63f4323290abc",
+    "Varus": "e9683d7789d7653e61d74fc75ba8c15f29e1236891f01e490b39028cdd370096",
+    "Vayne": "61fb036f34795163d6853b3c02c0fe3d774c3e69b92ab208bad2f5246c196fd2",
+    "Veigar": "633e8be16a2fd8578c5c4a518f49acdcfda135aa99861a91d0eb5a26ca70e8f3",
+    "Vel'Koz": "29d47c56f60a3ad48e68cf72e44a3366f6fa89b881ae49a8ced3394ddf57cb3b",
+    "Vex": "bfd18220809636d219b2ac5ee4aa2c5912e05c52f8a0c57da11235281032eb95",
+    "Vi": "aaf135e6ff111754e856abda18674102c22da708373554b75679277a33617188",
+    "Viego": "c156b29e1ca98db3f6a0e65172cdf52e382081c00f51b89197e79d5200b7c636",
+    "Viktor": "6b0320fa8235328244cafdc33a6b08a1c240aa830a8e8558af82d82e8f4bc74e",
+    "Vladimir": "84e28913d329a79e90f88f91ab4c06b2528859d86895cede25b55c6aa3d61455",
+    "Volibear": "c748426062e8ce144791f61e2aef260f3009d8ff82c8f0b241f7d5a59c70d7ac",
+    "Warwick": "a0872f1716e192d4189ce56f0574e0814024677587dea2e9a0553cc9951db876",
+    "Wukong": "d4d20f959963bb7ee385c6530afa21e777d06b77653d938c0619f640a1335248",
+    "Xayah": "e0b96b0dc09187d7beb173d4a7673b40e57380be55025f99167d8696e564cfa0",
+    "Xerath": "c5c658983c91c5b8f7bb4d7e79108c20046b3b4ce520a9c792705d00d7f10cce",
+    "Xin Zhao": "0c652874721fe5b48a861fb276974f3b2026fed2a76a60af15f3c38578a9fc8d",
+    "Yasuo": "60c94b6ac52ae7255beb53f45644f1ee865c3006ff7eb66dbb03026c1457b1d5",
+    "Yone": "85236f8a54be6154651e9b06516c86c5ac1fe5e30695a79620c703492cbc20dc",
+    "Yorick": "68359bb26d387669225c1e725670862afb6239a57de423180c62850550b64837",
+    "Yunara": "ef35049c1b7014833b5f3f309d4f75cc42079a7aa9b6736b7f394aa42752c225",
+    "Yuumi": "a37142908941fd20da070ab8648769cb1d751171cbe8c6499365997a1d6dc965",
+    "Zaahen": "c745bc9bc226aac25027b69af8ef3633fbeeca00b304a0bd5f1b9bbb96965161",
+    "Zac": "e7237cc5f370c1bdbc1ba69a187bfba9aeeb376af8786be5e21b21a5ba7f1bbf",
+    "Zed": "36fa0425a590d15e38349f0fcd13382b06ffff775e39489772ea5202751fa868",
+    "Zeri": "bbb8e9c56ad22ba8d19ed41157b44f73115ee3f8614cfb8083c7943e1416724a",
+    "Ziggs": "8287e1fb125a001611a2885dfb6f9c661950d8f244604be5ee943aa6a32d003b",
+    "Zilean": "69975185a87bdfa9a645e0ff79d135ae6f24e0511a4eec6baef0c079f4d65dcd",
+    "Zoe": "0874dd6cedecb106d4480ad3c0a9e588b230d425a01bdcf7cc9ae2436b2c195f",
+    "Zyra": "fb5f09856194a6b0a0ea271d7d6bd3bab974691b02972114f78c7c7559962f62"
+  },
+  "source": "merged-calculator champion modules (MODULE_CC via its own registry)",
+  "vocabulary": [
+    "airborne",
+    "berserk",
+    "blind",
+    "charm",
+    "cripple",
+    "fear",
+    "flee",
+    "immobilize",
+    "knockback",
+    "knockup",
+    "none",
+    "polymorph",
+    "pull",
+    "root",
+    "silence",
+    "sleep",
+    "slow",
+    "snare",
+    "stasis",
+    "stun",
+    "suppression",
+    "taunt"
+  ]
+}

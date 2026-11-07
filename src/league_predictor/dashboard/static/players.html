@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herald — Players</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body style="display:flex;flex-direction:column;min-height:100vh;">
+    <header class="desk-header" id="desk-header"></header>
+    <div class="date-bar page-root" id="date-bar"></div>
+    <div class="split-shell page-root">
+        <aside class="side-rail">
+            <div class="side-head">
+                <div class="label"><span class="accent">◆</span> Directory</div>
+                <div class="side-title">Players</div>
+                <input id="player-search" type="search" placeholder="Search players">
+                <div class="side-filters">
+                    <select id="region-filter" title="Filter by region"><option value="">All regions</option></select>
+                    <select id="role-filter" title="Filter by role">
+                        <option value="">All roles</option>
+                        <option value="top">Top</option>
+                        <option value="jng">Jungle</option>
+                        <option value="mid">Mid</option>
+                        <option value="bot">Bot</option>
+                        <option value="sup">Support</option>
+                    </select>
+                </div>
+                <div class="side-filters">
+                    <select id="sort-by" title="Sort order">
+                        <option value="impact">Sort · Impact</option>
+                        <option value="name">Sort · Name (A–Z)</option>
+                        <option value="games">Sort · Games played</option>
+                    </select>
+                </div>
+            </div>
+            <div id="player-list" class="side-list">
+                <div class="loading">Loading players</div>
+            </div>
+        </aside>
+        <main class="detail-main" id="player-detail">
+            <div class="loading">Select a player to open their profile</div>
+        </main>
+    </div>
+    <footer class="desk-footer" id="desk-footer"></footer>
+    <script src="/static/herald.js"></script>
+    <script src="/static/players.js"></script>
+</body>
+</html>

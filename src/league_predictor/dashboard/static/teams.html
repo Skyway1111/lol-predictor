@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herald — Teams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body style="display:flex;flex-direction:column;min-height:100vh;">
+    <header class="desk-header" id="desk-header"></header>
+    <div class="date-bar page-root" id="date-bar"></div>
+    <div class="split-shell page-root">
+        <aside class="side-rail">
+            <div class="side-head">
+                <div class="label"><span class="accent">◆</span> Rankings</div>
+                <div class="side-title">Teams</div>
+                <input id="team-search" type="search" placeholder="Search teams">
+                <div class="side-filters">
+                    <select id="team-region-filter" title="Filter by region"><option value="">All regions</option></select>
+                </div>
+            </div>
+            <div id="team-list" class="side-list">
+                <div class="loading">Loading teams</div>
+            </div>
+        </aside>
+        <main class="detail-main" id="team-detail">
+            <div class="loading">Select a team to open its sheet</div>
+        </main>
+    </div>
+    <footer class="desk-footer" id="desk-footer"></footer>
+    <script src="/static/herald.js"></script>
+    <script src="/static/teams.js"></script>
+</body>
+</html>

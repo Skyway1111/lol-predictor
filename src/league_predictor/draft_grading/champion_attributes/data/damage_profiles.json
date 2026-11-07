@@ -1,0 +1,1213 @@
+{
+  "meta": {
+    "created_at": "2026-04-07T00:00:00+00:00",
+    "source": "leagueofgraphs",
+    "updated_at": "2026-04-08T01:18:11+00:00"
+  },
+  "profiles": {
+    "Aatrox": {
+      "fetched_at": "2026-04-08T00:57:17+00:00",
+      "magic": 0.083,
+      "physical": 0.872,
+      "status": "ok",
+      "true": 0.045
+    },
+    "Ahri": {
+      "fetched_at": "2026-04-08T00:57:47+00:00",
+      "magic": 0.721,
+      "physical": 0.069,
+      "status": "ok",
+      "true": 0.21
+    },
+    "Akali": {
+      "fetched_at": "2026-04-08T00:58:18+00:00",
+      "magic": 0.863,
+      "physical": 0.062,
+      "status": "ok",
+      "true": 0.075
+    },
+    "Akshan": {
+      "fetched_at": "2026-04-08T00:58:49+00:00",
+      "magic": 0.135,
+      "physical": 0.807,
+      "status": "ok",
+      "true": 0.058
+    },
+    "Alistar": {
+      "fetched_at": "2026-04-08T00:59:19+00:00",
+      "magic": 0.7718,
+      "physical": 0.1431,
+      "status": "ok",
+      "true": 0.0851
+    },
+    "Ambessa": {
+      "fetched_at": "2026-04-08T01:00:34+00:00",
+      "magic": 0.014,
+      "physical": 0.93,
+      "status": "ok",
+      "true": 0.056
+    },
+    "Amumu": {
+      "fetched_at": "2026-04-08T01:00:40+00:00",
+      "magic": 0.7782,
+      "physical": 0.0869,
+      "status": "ok",
+      "true": 0.1349
+    },
+    "Anivia": {
+      "fetched_at": "2026-04-08T01:00:45+00:00",
+      "magic": 0.876,
+      "physical": 0.068,
+      "status": "ok",
+      "true": 0.056
+    },
+    "Annie": {
+      "fetched_at": "2026-04-08T01:00:51+00:00",
+      "magic": 0.9101,
+      "physical": 0.037,
+      "status": "ok",
+      "true": 0.0529
+    },
+    "Aphelios": {
+      "fetched_at": "2026-04-08T01:00:57+00:00",
+      "magic": 0.048,
+      "physical": 0.9369,
+      "status": "ok",
+      "true": 0.015
+    },
+    "Ashe": {
+      "fetched_at": "2026-04-08T01:01:02+00:00",
+      "magic": 0.108,
+      "physical": 0.876,
+      "status": "ok",
+      "true": 0.016
+    },
+    "Aurelion Sol": {
+      "fetched_at": "2026-04-08T01:18:07+00:00",
+      "magic": 0.96,
+      "physical": 0.011,
+      "status": "ok",
+      "true": 0.029
+    },
+    "Aurora": {
+      "fetched_at": "2026-04-08T01:01:13+00:00",
+      "magic": 0.897,
+      "physical": 0.06,
+      "status": "ok",
+      "true": 0.043
+    },
+    "Azir": {
+      "fetched_at": "2026-04-08T01:01:19+00:00",
+      "magic": 0.956,
+      "physical": 0.03,
+      "status": "ok",
+      "true": 0.014
+    },
+    "Bard": {
+      "fetched_at": "2026-04-08T01:01:24+00:00",
+      "magic": 0.63,
+      "physical": 0.275,
+      "status": "ok",
+      "true": 0.095
+    },
+    "Bel'Veth": {
+      "fetched_at": "2026-04-08T01:01:30+00:00",
+      "magic": 0.1171,
+      "physical": 0.7037,
+      "status": "ok",
+      "true": 0.1792
+    },
+    "Blitzcrank": {
+      "fetched_at": "2026-04-08T01:01:35+00:00",
+      "magic": 0.619,
+      "physical": 0.291,
+      "status": "ok",
+      "true": 0.09
+    },
+    "Brand": {
+      "fetched_at": "2026-04-08T01:01:41+00:00",
+      "magic": 0.9299,
+      "physical": 0.036,
+      "status": "ok",
+      "true": 0.034
+    },
+    "Braum": {
+      "fetched_at": "2026-04-08T01:01:47+00:00",
+      "magic": 0.762,
+      "physical": 0.183,
+      "status": "ok",
+      "true": 0.055
+    },
+    "Briar": {
+      "fetched_at": "2026-04-08T01:01:52+00:00",
+      "magic": 0.095,
+      "physical": 0.832,
+      "status": "ok",
+      "true": 0.073
+    },
+    "Caitlyn": {
+      "fetched_at": "2026-04-08T01:01:58+00:00",
+      "magic": 0.033,
+      "physical": 0.9479,
+      "status": "ok",
+      "true": 0.019
+    },
+    "Camille": {
+      "fetched_at": "2026-04-08T01:02:03+00:00",
+      "magic": 0.055,
+      "physical": 0.616,
+      "status": "ok",
+      "true": 0.329
+    },
+    "Cassiopeia": {
+      "fetched_at": "2026-04-08T01:02:09+00:00",
+      "magic": 0.963,
+      "physical": 0.021,
+      "status": "ok",
+      "true": 0.016
+    },
+    "Cho'Gath": {
+      "fetched_at": "2026-04-08T01:02:14+00:00",
+      "magic": 0.6164,
+      "physical": 0.1648,
+      "status": "ok",
+      "true": 0.2188
+    },
+    "Corki": {
+      "fetched_at": "2026-04-08T01:02:20+00:00",
+      "magic": 0.208,
+      "physical": 0.651,
+      "status": "ok",
+      "true": 0.141
+    },
+    "Darius": {
+      "fetched_at": "2026-04-08T01:02:25+00:00",
+      "magic": 0.005,
+      "physical": 0.7712,
+      "status": "ok",
+      "true": 0.2238
+    },
+    "Diana": {
+      "fetched_at": "2026-04-08T01:02:31+00:00",
+      "magic": 0.826,
+      "physical": 0.103,
+      "status": "ok",
+      "true": 0.071
+    },
+    "Dr. Mundo": {
+      "fetched_at": "2026-04-08T01:18:06+00:00",
+      "magic": 0.516,
+      "physical": 0.457,
+      "status": "ok",
+      "true": 0.027
+    },
+    "Draven": {
+      "fetched_at": "2026-04-08T01:02:42+00:00",
+      "magic": 0.005,
+      "physical": 0.98,
+      "status": "ok",
+      "true": 0.015
+    },
+    "Ekko": {
+      "fetched_at": "2026-04-08T01:02:47+00:00",
+      "magic": 0.793,
+      "physical": 0.113,
+      "status": "ok",
+      "true": 0.094
+    },
+    "Elise": {
+      "fetched_at": "2026-04-08T01:02:53+00:00",
+      "magic": 0.8398,
+      "physical": 0.0761,
+      "status": "ok",
+      "true": 0.0841
+    },
+    "Evelynn": {
+      "fetched_at": "2026-04-08T01:02:58+00:00",
+      "magic": 0.907,
+      "physical": 0.029,
+      "status": "ok",
+      "true": 0.064
+    },
+    "Ezreal": {
+      "fetched_at": "2026-04-08T01:03:04+00:00",
+      "magic": 0.2933,
+      "physical": 0.6897,
+      "status": "ok",
+      "true": 0.017
+    },
+    "Fiddlesticks": {
+      "fetched_at": "2026-04-08T01:03:09+00:00",
+      "magic": 0.9269,
+      "physical": 0.014,
+      "status": "ok",
+      "true": 0.0591
+    },
+    "Fiora": {
+      "fetched_at": "2026-04-08T01:03:14+00:00",
+      "magic": 0.051,
+      "physical": 0.61,
+      "status": "ok",
+      "true": 0.339
+    },
+    "Fizz": {
+      "fetched_at": "2026-04-08T01:03:20+00:00",
+      "magic": 0.783,
+      "physical": 0.125,
+      "status": "ok",
+      "true": 0.092
+    },
+    "Galio": {
+      "fetched_at": "2026-04-08T01:03:25+00:00",
+      "magic": 0.943,
+      "physical": 0.026,
+      "status": "ok",
+      "true": 0.031
+    },
+    "Gangplank": {
+      "fetched_at": "2026-04-08T01:03:31+00:00",
+      "magic": 0.143,
+      "physical": 0.69,
+      "status": "ok",
+      "true": 0.167
+    },
+    "Garen": {
+      "fetched_at": "2026-04-08T01:03:37+00:00",
+      "magic": 0.004,
+      "physical": 0.7552,
+      "status": "ok",
+      "true": 0.2408
+    },
+    "Gnar": {
+      "fetched_at": "2026-04-08T01:03:42+00:00",
+      "magic": 0.172,
+      "physical": 0.809,
+      "status": "ok",
+      "true": 0.019
+    },
+    "Gragas": {
+      "fetched_at": "2026-04-08T01:03:48+00:00",
+      "magic": 0.88,
+      "physical": 0.077,
+      "status": "ok",
+      "true": 0.043
+    },
+    "Graves": {
+      "fetched_at": "2026-04-08T01:03:54+00:00",
+      "magic": 0.036,
+      "physical": 0.86,
+      "status": "ok",
+      "true": 0.104
+    },
+    "Gwen": {
+      "fetched_at": "2026-04-08T01:03:59+00:00",
+      "magic": 0.7077,
+      "physical": 0.1291,
+      "status": "ok",
+      "true": 0.1632
+    },
+    "Hecarim": {
+      "fetched_at": "2026-04-08T01:04:05+00:00",
+      "magic": 0.1548,
+      "physical": 0.8112,
+      "status": "ok",
+      "true": 0.034
+    },
+    "Heimerdinger": {
+      "fetched_at": "2026-04-08T01:04:11+00:00",
+      "magic": 0.938,
+      "physical": 0.04,
+      "status": "ok",
+      "true": 0.022
+    },
+    "Hwei": {
+      "fetched_at": "2026-04-08T01:04:16+00:00",
+      "magic": 0.949,
+      "physical": 0.038,
+      "status": "ok",
+      "true": 0.013
+    },
+    "Illaoi": {
+      "fetched_at": "2026-04-08T01:04:22+00:00",
+      "magic": 0.033,
+      "physical": 0.951,
+      "status": "ok",
+      "true": 0.016
+    },
+    "Irelia": {
+      "fetched_at": "2026-04-08T01:04:28+00:00",
+      "magic": 0.2432,
+      "physical": 0.7127,
+      "status": "ok",
+      "true": 0.044
+    },
+    "Ivern": {
+      "fetched_at": "2026-04-08T01:04:33+00:00",
+      "magic": 0.637,
+      "physical": 0.271,
+      "status": "ok",
+      "true": 0.092
+    },
+    "Janna": {
+      "fetched_at": "2026-04-08T01:04:38+00:00",
+      "magic": 0.8028,
+      "physical": 0.1391,
+      "status": "ok",
+      "true": 0.0581
+    },
+    "Jarvan IV": {
+      "fetched_at": "2026-04-08T01:18:07+00:00",
+      "magic": 0.078,
+      "physical": 0.842,
+      "status": "ok",
+      "true": 0.08
+    },
+    "Jax": {
+      "fetched_at": "2026-04-08T01:04:50+00:00",
+      "magic": 0.441,
+      "physical": 0.511,
+      "status": "ok",
+      "true": 0.048
+    },
+    "Jayce": {
+      "fetched_at": "2026-04-08T01:04:55+00:00",
+      "magic": 0.19,
+      "physical": 0.765,
+      "status": "ok",
+      "true": 0.045
+    },
+    "Jhin": {
+      "fetched_at": "2026-04-08T01:05:01+00:00",
+      "magic": 0.0579,
+      "physical": 0.9261,
+      "status": "ok",
+      "true": 0.016
+    },
+    "Jinx": {
+      "fetched_at": "2026-04-08T01:05:06+00:00",
+      "magic": 0.035,
+      "physical": 0.951,
+      "status": "ok",
+      "true": 0.014
+    },
+    "K'Sante": {
+      "fetched_at": "2026-04-08T01:05:12+00:00",
+      "magic": 0.099,
+      "physical": 0.836,
+      "status": "ok",
+      "true": 0.065
+    },
+    "Kai'Sa": {
+      "fetched_at": "2026-04-08T01:05:17+00:00",
+      "magic": 0.4156,
+      "physical": 0.5694,
+      "status": "ok",
+      "true": 0.015
+    },
+    "Kalista": {
+      "fetched_at": "2026-04-08T01:05:22+00:00",
+      "magic": 0.106,
+      "physical": 0.836,
+      "status": "ok",
+      "true": 0.058
+    },
+    "Karma": {
+      "fetched_at": "2026-04-08T01:05:28+00:00",
+      "magic": 0.882,
+      "physical": 0.084,
+      "status": "ok",
+      "true": 0.034
+    },
+    "Karthus": {
+      "fetched_at": "2026-04-08T01:05:34+00:00",
+      "magic": 0.925,
+      "physical": 0.007,
+      "status": "ok",
+      "true": 0.068
+    },
+    "Kassadin": {
+      "fetched_at": "2026-04-08T01:05:39+00:00",
+      "magic": 0.7942,
+      "physical": 0.1379,
+      "status": "ok",
+      "true": 0.0679
+    },
+    "Katarina": {
+      "fetched_at": "2026-04-08T01:05:44+00:00",
+      "magic": 0.7313,
+      "physical": 0.1938,
+      "status": "ok",
+      "true": 0.0749
+    },
+    "Kayle": {
+      "fetched_at": "2026-04-08T01:05:50+00:00",
+      "magic": 0.736,
+      "physical": 0.246,
+      "status": "ok",
+      "true": 0.018
+    },
+    "Kayn": {
+      "fetched_at": "2026-04-08T01:05:56+00:00",
+      "magic": 0.042,
+      "physical": 0.8919,
+      "status": "ok",
+      "true": 0.0661
+    },
+    "Kennen": {
+      "fetched_at": "2026-04-08T01:06:01+00:00",
+      "magic": 0.848,
+      "physical": 0.114,
+      "status": "ok",
+      "true": 0.038
+    },
+    "Kha'Zix": {
+      "fetched_at": "2026-04-08T01:06:06+00:00",
+      "magic": 0.058,
+      "physical": 0.826,
+      "status": "ok",
+      "true": 0.116
+    },
+    "Kindred": {
+      "fetched_at": "2026-04-08T01:06:12+00:00",
+      "magic": 0.141,
+      "physical": 0.757,
+      "status": "ok",
+      "true": 0.102
+    },
+    "Kled": {
+      "fetched_at": "2026-04-08T01:06:18+00:00",
+      "magic": 0.069,
+      "physical": 0.878,
+      "status": "ok",
+      "true": 0.053
+    },
+    "Kog'Maw": {
+      "fetched_at": "2026-04-08T01:06:23+00:00",
+      "magic": 0.609,
+      "physical": 0.297,
+      "status": "ok",
+      "true": 0.094
+    },
+    "LeBlanc": {
+      "fetched_at": "2026-04-08T01:06:29+00:00",
+      "magic": 0.857,
+      "physical": 0.053,
+      "status": "ok",
+      "true": 0.09
+    },
+    "Lee Sin": {
+      "fetched_at": "2026-04-08T01:18:07+00:00",
+      "magic": 0.1552,
+      "physical": 0.7648,
+      "status": "ok",
+      "true": 0.0801
+    },
+    "Leona": {
+      "fetched_at": "2026-04-08T01:06:40+00:00",
+      "magic": 0.646,
+      "physical": 0.274,
+      "status": "ok",
+      "true": 0.08
+    },
+    "Lillia": {
+      "fetched_at": "2026-04-08T01:06:45+00:00",
+      "magic": 0.765,
+      "physical": 0.036,
+      "status": "ok",
+      "true": 0.199
+    },
+    "Lissandra": {
+      "fetched_at": "2026-04-08T01:06:51+00:00",
+      "magic": 0.9089,
+      "physical": 0.0501,
+      "status": "ok",
+      "true": 0.041
+    },
+    "Lucian": {
+      "fetched_at": "2026-04-08T01:06:56+00:00",
+      "magic": 0.1119,
+      "physical": 0.8691,
+      "status": "ok",
+      "true": 0.019
+    },
+    "Lulu": {
+      "fetched_at": "2026-04-08T01:07:02+00:00",
+      "magic": 0.814,
+      "physical": 0.149,
+      "status": "ok",
+      "true": 0.037
+    },
+    "Lux": {
+      "fetched_at": "2026-04-08T01:07:07+00:00",
+      "magic": 0.902,
+      "physical": 0.053,
+      "status": "ok",
+      "true": 0.045
+    },
+    "Malphite": {
+      "fetched_at": "2026-04-08T01:07:13+00:00",
+      "magic": 0.707,
+      "physical": 0.26,
+      "status": "ok",
+      "true": 0.033
+    },
+    "Malzahar": {
+      "fetched_at": "2026-04-08T01:07:18+00:00",
+      "magic": 0.961,
+      "physical": 0.023,
+      "status": "ok",
+      "true": 0.016
+    },
+    "Maokai": {
+      "fetched_at": "2026-04-08T01:07:24+00:00",
+      "magic": 0.822,
+      "physical": 0.122,
+      "status": "ok",
+      "true": 0.056
+    },
+    "Master Yi": {
+      "fetched_at": "2026-04-08T01:18:08+00:00",
+      "magic": 0.039,
+      "physical": 0.672,
+      "status": "ok",
+      "true": 0.289
+    },
+    "Mel": {
+      "fetched_at": "2026-04-08T01:07:35+00:00",
+      "magic": 0.925,
+      "physical": 0.058,
+      "status": "ok",
+      "true": 0.017
+    },
+    "Milio": {
+      "fetched_at": "2026-04-08T01:07:40+00:00",
+      "magic": 0.8008,
+      "physical": 0.1642,
+      "status": "ok",
+      "true": 0.035
+    },
+    "Miss Fortune": {
+      "fetched_at": "2026-04-08T01:18:09+00:00",
+      "magic": 0.054,
+      "physical": 0.911,
+      "status": "ok",
+      "true": 0.035
+    },
+    "Mordekaiser": {
+      "fetched_at": "2026-04-08T01:07:51+00:00",
+      "magic": 0.8312,
+      "physical": 0.1199,
+      "status": "ok",
+      "true": 0.049
+    },
+    "Morgana": {
+      "fetched_at": "2026-04-08T01:07:57+00:00",
+      "magic": 0.886,
+      "physical": 0.052,
+      "status": "ok",
+      "true": 0.062
+    },
+    "Naafiri": {
+      "fetched_at": "2026-04-08T01:08:02+00:00",
+      "magic": 0.006,
+      "physical": 0.909,
+      "status": "ok",
+      "true": 0.085
+    },
+    "Nami": {
+      "fetched_at": "2026-04-08T01:08:08+00:00",
+      "magic": 0.864,
+      "physical": 0.109,
+      "status": "ok",
+      "true": 0.027
+    },
+    "Nasus": {
+      "fetched_at": "2026-04-08T01:08:13+00:00",
+      "magic": 0.239,
+      "physical": 0.741,
+      "status": "ok",
+      "true": 0.02
+    },
+    "Nautilus": {
+      "fetched_at": "2026-04-08T01:08:19+00:00",
+      "magic": 0.642,
+      "physical": 0.279,
+      "status": "ok",
+      "true": 0.079
+    },
+    "Neeko": {
+      "fetched_at": "2026-04-08T01:08:24+00:00",
+      "magic": 0.889,
+      "physical": 0.068,
+      "status": "ok",
+      "true": 0.043
+    },
+    "Nidalee": {
+      "fetched_at": "2026-04-08T01:08:30+00:00",
+      "magic": 0.821,
+      "physical": 0.078,
+      "status": "ok",
+      "true": 0.101
+    },
+    "Nilah": {
+      "fetched_at": "2026-04-08T01:08:36+00:00",
+      "magic": 0.007,
+      "physical": 0.965,
+      "status": "ok",
+      "true": 0.028
+    },
+    "Nocturne": {
+      "fetched_at": "2026-04-08T01:08:41+00:00",
+      "magic": 0.062,
+      "physical": 0.851,
+      "status": "ok",
+      "true": 0.087
+    },
+    "Nunu & Willump": {
+      "fetched_at": "2026-04-08T01:08:47+00:00",
+      "magic": 0.8869,
+      "physical": 0.0631,
+      "status": "ok",
+      "true": 0.0501
+    },
+    "Olaf": {
+      "fetched_at": "2026-04-08T01:08:52+00:00",
+      "magic": 0.003,
+      "physical": 0.711,
+      "status": "ok",
+      "true": 0.286
+    },
+    "Orianna": {
+      "fetched_at": "2026-04-08T01:08:58+00:00",
+      "magic": 0.9361,
+      "physical": 0.0529,
+      "status": "ok",
+      "true": 0.011
+    },
+    "Ornn": {
+      "fetched_at": "2026-04-08T01:09:04+00:00",
+      "magic": 0.651,
+      "physical": 0.332,
+      "status": "ok",
+      "true": 0.017
+    },
+    "Pantheon": {
+      "fetched_at": "2026-04-08T01:09:09+00:00",
+      "magic": 0.033,
+      "physical": 0.895,
+      "status": "ok",
+      "true": 0.072
+    },
+    "Poppy": {
+      "fetched_at": "2026-04-08T01:09:15+00:00",
+      "magic": 0.141,
+      "physical": 0.804,
+      "status": "ok",
+      "true": 0.055
+    },
+    "Pyke": {
+      "fetched_at": "2026-04-08T01:09:20+00:00",
+      "magic": 0.001,
+      "physical": 0.7708,
+      "status": "ok",
+      "true": 0.2282
+    },
+    "Qiyana": {
+      "fetched_at": "2026-04-08T01:09:26+00:00",
+      "magic": 0.0809,
+      "physical": 0.8242,
+      "status": "ok",
+      "true": 0.0949
+    },
+    "Quinn": {
+      "fetched_at": "2026-04-08T01:09:31+00:00",
+      "magic": 0.029,
+      "physical": 0.887,
+      "status": "ok",
+      "true": 0.084
+    },
+    "Rakan": {
+      "fetched_at": "2026-04-08T01:09:36+00:00",
+      "magic": 0.725,
+      "physical": 0.191,
+      "status": "ok",
+      "true": 0.084
+    },
+    "Rammus": {
+      "fetched_at": "2026-04-08T01:09:42+00:00",
+      "magic": 0.647,
+      "physical": 0.311,
+      "status": "ok",
+      "true": 0.042
+    },
+    "Rek'Sai": {
+      "fetched_at": "2026-04-08T01:09:47+00:00",
+      "magic": 0.138,
+      "physical": 0.617,
+      "status": "ok",
+      "true": 0.245
+    },
+    "Rell": {
+      "fetched_at": "2026-04-08T01:09:53+00:00",
+      "magic": 0.706,
+      "physical": 0.217,
+      "status": "ok",
+      "true": 0.077
+    },
+    "Renata Glasc": {
+      "fetched_at": "2026-04-08T01:18:09+00:00",
+      "magic": 0.616,
+      "physical": 0.15,
+      "status": "ok",
+      "true": 0.234
+    },
+    "Renekton": {
+      "fetched_at": "2026-04-08T01:10:04+00:00",
+      "magic": 0.181,
+      "physical": 0.767,
+      "status": "ok",
+      "true": 0.052
+    },
+    "Rengar": {
+      "fetched_at": "2026-04-08T01:10:10+00:00",
+      "magic": 0.052,
+      "physical": 0.848,
+      "status": "ok",
+      "true": 0.1
+    },
+    "Riven": {
+      "fetched_at": "2026-04-08T01:10:15+00:00",
+      "magic": 0.003,
+      "physical": 0.935,
+      "status": "ok",
+      "true": 0.062
+    },
+    "Rumble": {
+      "fetched_at": "2026-04-08T01:10:21+00:00",
+      "magic": 0.914,
+      "physical": 0.041,
+      "status": "ok",
+      "true": 0.045
+    },
+    "Ryze": {
+      "fetched_at": "2026-04-08T01:10:27+00:00",
+      "magic": 0.945,
+      "physical": 0.045,
+      "status": "ok",
+      "true": 0.01
+    },
+    "Samira": {
+      "fetched_at": "2026-04-08T01:10:32+00:00",
+      "magic": 0.105,
+      "physical": 0.869,
+      "status": "ok",
+      "true": 0.026
+    },
+    "Sejuani": {
+      "fetched_at": "2026-04-08T01:10:38+00:00",
+      "magic": 0.391,
+      "physical": 0.557,
+      "status": "ok",
+      "true": 0.052
+    },
+    "Senna": {
+      "fetched_at": "2026-04-08T01:10:43+00:00",
+      "magic": 0.051,
+      "physical": 0.932,
+      "status": "ok",
+      "true": 0.017
+    },
+    "Seraphine": {
+      "fetched_at": "2026-04-08T01:10:49+00:00",
+      "magic": 0.875,
+      "physical": 0.106,
+      "status": "ok",
+      "true": 0.019
+    },
+    "Sett": {
+      "fetched_at": "2026-04-08T01:10:54+00:00",
+      "magic": 0.006,
+      "physical": 0.744,
+      "status": "ok",
+      "true": 0.25
+    },
+    "Shaco": {
+      "fetched_at": "2026-04-08T01:11:00+00:00",
+      "magic": 0.527,
+      "physical": 0.35,
+      "status": "ok",
+      "true": 0.123
+    },
+    "Shen": {
+      "fetched_at": "2026-04-08T01:11:05+00:00",
+      "magic": 0.42,
+      "physical": 0.51,
+      "status": "ok",
+      "true": 0.07
+    },
+    "Shyvana": {
+      "fetched_at": "2026-04-08T01:11:11+00:00",
+      "magic": 0.456,
+      "physical": 0.393,
+      "status": "ok",
+      "true": 0.151
+    },
+    "Singed": {
+      "fetched_at": "2026-04-08T01:11:16+00:00",
+      "magic": 0.919,
+      "physical": 0.052,
+      "status": "ok",
+      "true": 0.029
+    },
+    "Sion": {
+      "fetched_at": "2026-04-08T01:11:22+00:00",
+      "magic": 0.36,
+      "physical": 0.615,
+      "status": "ok",
+      "true": 0.025
+    },
+    "Sivir": {
+      "fetched_at": "2026-04-08T01:11:27+00:00",
+      "magic": 0.009,
+      "physical": 0.978,
+      "status": "ok",
+      "true": 0.013
+    },
+    "Skarner": {
+      "fetched_at": "2026-04-08T01:11:33+00:00",
+      "magic": 0.3327,
+      "physical": 0.6314,
+      "status": "ok",
+      "true": 0.036
+    },
+    "Smolder": {
+      "fetched_at": "2026-04-08T01:11:38+00:00",
+      "magic": 0.165,
+      "physical": 0.727,
+      "status": "ok",
+      "true": 0.108
+    },
+    "Sona": {
+      "fetched_at": "2026-04-08T01:11:44+00:00",
+      "magic": 0.783,
+      "physical": 0.199,
+      "status": "ok",
+      "true": 0.018
+    },
+    "Soraka": {
+      "fetched_at": "2026-04-08T01:11:49+00:00",
+      "magic": 0.819,
+      "physical": 0.116,
+      "status": "ok",
+      "true": 0.065
+    },
+    "Swain": {
+      "fetched_at": "2026-04-08T01:11:55+00:00",
+      "magic": 0.893,
+      "physical": 0.067,
+      "status": "ok",
+      "true": 0.04
+    },
+    "Sylas": {
+      "fetched_at": "2026-04-08T01:12:00+00:00",
+      "magic": 0.901,
+      "physical": 0.032,
+      "status": "ok",
+      "true": 0.067
+    },
+    "Syndra": {
+      "fetched_at": "2026-04-08T01:12:06+00:00",
+      "magic": 0.893,
+      "physical": 0.034,
+      "status": "ok",
+      "true": 0.073
+    },
+    "Tahm Kench": {
+      "fetched_at": "2026-04-08T01:18:10+00:00",
+      "magic": 0.7602,
+      "physical": 0.1938,
+      "status": "ok",
+      "true": 0.046
+    },
+    "Taliyah": {
+      "fetched_at": "2026-04-08T01:12:17+00:00",
+      "magic": 0.9219,
+      "physical": 0.038,
+      "status": "ok",
+      "true": 0.04
+    },
+    "Talon": {
+      "fetched_at": "2026-04-08T01:12:22+00:00",
+      "magic": 0.006,
+      "physical": 0.905,
+      "status": "ok",
+      "true": 0.089
+    },
+    "Taric": {
+      "fetched_at": "2026-04-08T01:12:28+00:00",
+      "magic": 0.618,
+      "physical": 0.31,
+      "status": "ok",
+      "true": 0.072
+    },
+    "Teemo": {
+      "fetched_at": "2026-04-08T01:12:33+00:00",
+      "magic": 0.822,
+      "physical": 0.112,
+      "status": "ok",
+      "true": 0.066
+    },
+    "Thresh": {
+      "fetched_at": "2026-04-08T01:12:39+00:00",
+      "magic": 0.782,
+      "physical": 0.139,
+      "status": "ok",
+      "true": 0.079
+    },
+    "Tristana": {
+      "fetched_at": "2026-04-08T01:12:44+00:00",
+      "magic": 0.088,
+      "physical": 0.892,
+      "status": "ok",
+      "true": 0.02
+    },
+    "Trundle": {
+      "fetched_at": "2026-04-08T01:12:50+00:00",
+      "magic": 0.132,
+      "physical": 0.818,
+      "status": "ok",
+      "true": 0.05
+    },
+    "Tryndamere": {
+      "fetched_at": "2026-04-08T01:12:55+00:00",
+      "magic": 0.007,
+      "physical": 0.919,
+      "status": "ok",
+      "true": 0.074
+    },
+    "Twisted Fate": {
+      "fetched_at": "2026-04-08T01:18:10+00:00",
+      "magic": 0.832,
+      "physical": 0.142,
+      "status": "ok",
+      "true": 0.026
+    },
+    "Twitch": {
+      "fetched_at": "2026-04-08T01:13:07+00:00",
+      "magic": 0.046,
+      "physical": 0.799,
+      "status": "ok",
+      "true": 0.155
+    },
+    "Udyr": {
+      "fetched_at": "2026-04-08T01:13:12+00:00",
+      "magic": 0.554,
+      "physical": 0.402,
+      "status": "ok",
+      "true": 0.044
+    },
+    "Urgot": {
+      "fetched_at": "2026-04-08T01:13:18+00:00",
+      "magic": 0.009,
+      "physical": 0.887,
+      "status": "ok",
+      "true": 0.104
+    },
+    "Varus": {
+      "fetched_at": "2026-04-08T01:13:24+00:00",
+      "magic": 0.3904,
+      "physical": 0.5986,
+      "status": "ok",
+      "true": 0.011
+    },
+    "Vayne": {
+      "fetched_at": "2026-04-08T01:13:29+00:00",
+      "magic": 0.038,
+      "physical": 0.7413,
+      "status": "ok",
+      "true": 0.2208
+    },
+    "Veigar": {
+      "fetched_at": "2026-04-08T01:13:35+00:00",
+      "magic": 0.949,
+      "physical": 0.028,
+      "status": "ok",
+      "true": 0.023
+    },
+    "Vel'Koz": {
+      "fetched_at": "2026-04-08T01:13:40+00:00",
+      "magic": 0.721,
+      "physical": 0.02,
+      "status": "ok",
+      "true": 0.259
+    },
+    "Vex": {
+      "fetched_at": "2026-04-08T01:13:45+00:00",
+      "magic": 0.9121,
+      "physical": 0.0599,
+      "status": "ok",
+      "true": 0.028
+    },
+    "Vi": {
+      "fetched_at": "2026-04-08T01:13:51+00:00",
+      "magic": 0.004,
+      "physical": 0.925,
+      "status": "ok",
+      "true": 0.071
+    },
+    "Viego": {
+      "fetched_at": "2026-04-08T01:13:57+00:00",
+      "magic": 0.091,
+      "physical": 0.852,
+      "status": "ok",
+      "true": 0.057
+    },
+    "Viktor": {
+      "fetched_at": "2026-04-08T01:14:02+00:00",
+      "magic": 0.96,
+      "physical": 0.026,
+      "status": "ok",
+      "true": 0.014
+    },
+    "Vladimir": {
+      "fetched_at": "2026-04-08T01:14:08+00:00",
+      "magic": 0.941,
+      "physical": 0.038,
+      "status": "ok",
+      "true": 0.021
+    },
+    "Volibear": {
+      "fetched_at": "2026-04-08T01:14:14+00:00",
+      "magic": 0.4685,
+      "physical": 0.4885,
+      "status": "ok",
+      "true": 0.043
+    },
+    "Warwick": {
+      "fetched_at": "2026-04-08T01:14:19+00:00",
+      "magic": 0.464,
+      "physical": 0.5,
+      "status": "ok",
+      "true": 0.036
+    },
+    "Wukong": {
+      "fetched_at": "2026-04-08T01:18:11+00:00",
+      "magic": 0.142,
+      "physical": 0.791,
+      "status": "ok",
+      "true": 0.067
+    },
+    "Xayah": {
+      "fetched_at": "2026-04-08T01:14:30+00:00",
+      "magic": 0.009,
+      "physical": 0.978,
+      "status": "ok",
+      "true": 0.013
+    },
+    "Xerath": {
+      "fetched_at": "2026-04-08T01:14:36+00:00",
+      "magic": 0.956,
+      "physical": 0.025,
+      "status": "ok",
+      "true": 0.019
+    },
+    "Xin Zhao": {
+      "fetched_at": "2026-04-08T01:18:11+00:00",
+      "magic": 0.0701,
+      "physical": 0.8779,
+      "status": "ok",
+      "true": 0.0521
+    },
+    "Yasuo": {
+      "fetched_at": "2026-04-08T01:14:48+00:00",
+      "magic": 0.09,
+      "physical": 0.869,
+      "status": "ok",
+      "true": 0.041
+    },
+    "Yone": {
+      "fetched_at": "2026-04-08T01:14:54+00:00",
+      "magic": 0.156,
+      "physical": 0.715,
+      "status": "ok",
+      "true": 0.129
+    },
+    "Yorick": {
+      "fetched_at": "2026-04-08T01:14:59+00:00",
+      "magic": 0.312,
+      "physical": 0.659,
+      "status": "ok",
+      "true": 0.029
+    },
+    "Yunara": {
+      "fetched_at": "2026-04-08T01:15:05+00:00",
+      "magic": 0.3343,
+      "physical": 0.6376,
+      "status": "ok",
+      "true": 0.028
+    },
+    "Yuumi": {
+      "fetched_at": "2026-04-08T01:15:10+00:00",
+      "magic": 0.922,
+      "physical": 0.04,
+      "status": "ok",
+      "true": 0.038
+    },
+    "Zaahen": {
+      "fetched_at": "2026-04-08T01:15:16+00:00",
+      "magic": 0.048,
+      "physical": 0.907,
+      "status": "ok",
+      "true": 0.045
+    },
+    "Zac": {
+      "fetched_at": "2026-04-08T01:15:21+00:00",
+      "magic": 0.8492,
+      "physical": 0.0709,
+      "status": "ok",
+      "true": 0.0799
+    },
+    "Zed": {
+      "fetched_at": "2026-04-08T01:15:26+00:00",
+      "magic": 0.048,
+      "physical": 0.8781,
+      "status": "ok",
+      "true": 0.0739
+    },
+    "Zeri": {
+      "fetched_at": "2026-04-08T01:15:32+00:00",
+      "magic": 0.229,
+      "physical": 0.736,
+      "status": "ok",
+      "true": 0.035
+    },
+    "Ziggs": {
+      "fetched_at": "2026-04-08T01:15:38+00:00",
+      "magic": 0.954,
+      "physical": 0.031,
+      "status": "ok",
+      "true": 0.015
+    },
+    "Zilean": {
+      "fetched_at": "2026-04-08T01:15:43+00:00",
+      "magic": 0.8448,
+      "physical": 0.1131,
+      "status": "ok",
+      "true": 0.042
+    },
+    "Zoe": {
+      "fetched_at": "2026-04-08T01:15:49+00:00",
+      "magic": 0.758,
+      "physical": 0.076,
+      "status": "ok",
+      "true": 0.166
+    },
+    "Zyra": {
+      "fetched_at": "2026-04-08T01:15:54+00:00",
+      "magic": 0.891,
+      "physical": 0.048,
+      "status": "ok",
+      "true": 0.061
+    }
+  }
+}

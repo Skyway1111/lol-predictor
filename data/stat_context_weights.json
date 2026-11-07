@@ -1,0 +1,266 @@
+{
+  "versions": {
+    "6": {
+      "trained_through": "2026-08-14",
+      "n_games": 92006,
+      "shrinkage_k": 20.0,
+      "weights": {
+        "top": {
+          "laning": 0.5827,
+          "combat": 0.1366,
+          "vision": 0.0442
+        },
+        "jng": {
+          "laning": 0.3808,
+          "combat": 0.2021,
+          "vision": 0.102
+        },
+        "mid": {
+          "laning": 0.5253,
+          "combat": 0.2635,
+          "vision": 0.0719
+        },
+        "bot": {
+          "laning": 0.557,
+          "combat": 0.3003,
+          "vision": 0.1532
+        },
+        "sup": {
+          "lane": 0.3078,
+          "playmaking": 0.3518,
+          "utility": -0.0088,
+          "vision": 0.1181
+        }
+      },
+      "walk_forward": {
+        "n_windows": 81,
+        "mean_logloss": 0.6737195397402285,
+        "baseline_logloss": 0.693147
+      },
+      "gates": {
+        "weight_sanity": {
+          "passed": true,
+          "issues": []
+        },
+        "walk_forward": {
+          "passed": true,
+          "mean_logloss": 0.6737195397402285
+        },
+        "grade_stability": {
+          "passed": true,
+          "shifts": {
+            "S": 0.02,
+            "A": 0.01,
+            "B": 0.03,
+            "C": 0.04,
+            "D": 0.03
+          }
+        }
+      },
+      "build": {
+        "variant": "covariate",
+        "champion_offsets": false
+      },
+      "blocks": {
+        "base": 60.0
+      }
+    },
+    "7": {
+      "trained_through": "2026-08-14",
+      "n_games": 92006,
+      "shrinkage_k": 20.0,
+      "weights": {
+        "top": {
+          "laning": 0.5669,
+          "combat": 0.0903,
+          "vision": 0.0415
+        },
+        "jng": {
+          "laning": 0.3767,
+          "combat": 0.2023,
+          "vision": 0.1077
+        },
+        "mid": {
+          "laning": 0.5059,
+          "combat": 0.2607,
+          "vision": 0.0666
+        },
+        "bot": {
+          "laning": 0.5397,
+          "combat": 0.2294,
+          "vision": 0.1178
+        },
+        "sup": {
+          "lane": 0.3024,
+          "playmaking": 0.3694,
+          "utility": -0.0378,
+          "vision": 0.1303
+        }
+      },
+      "walk_forward": {
+        "n_windows": 81,
+        "mean_logloss": 0.6743517537346683,
+        "baseline_logloss": 0.693147
+      },
+      "gates": {
+        "weight_sanity": {
+          "passed": true,
+          "issues": []
+        },
+        "walk_forward": {
+          "passed": true,
+          "mean_logloss": 0.6743517537346683
+        },
+        "grade_stability": {
+          "passed": true,
+          "shifts": {
+            "S": 0.09,
+            "A": 0.04,
+            "B": 0.77,
+            "C": 3.59,
+            "D": 2.77
+          }
+        }
+      },
+      "build": {
+        "variant": "covariate",
+        "champion_offsets": true
+      },
+      "blocks": {
+        "base": 60.0
+      }
+    },
+    "8": {
+      "trained_through": "2026-08-14",
+      "n_games": 92006,
+      "shrinkage_k": 20.0,
+      "weights": {
+        "top": {
+          "laning": 0.6848,
+          "combat": 0.0784,
+          "vision": 0.0373
+        },
+        "jng": {
+          "laning": 0.4483,
+          "combat": 0.1574,
+          "vision": 0.0913
+        },
+        "mid": {
+          "laning": 0.6763,
+          "combat": 0.1181,
+          "vision": 0.0664
+        },
+        "bot": {
+          "laning": 0.6376,
+          "combat": 0.2448,
+          "vision": 0.1485
+        },
+        "sup": {
+          "lane": 0.3585,
+          "playmaking": 0.3496,
+          "utility": -0.0708,
+          "vision": 0.1102
+        }
+      },
+      "walk_forward": {
+        "n_windows": 81,
+        "mean_logloss": 0.6642273195163187,
+        "baseline_logloss": 0.693147
+      },
+      "gates": {
+        "weight_sanity": {
+          "passed": true,
+          "issues": []
+        },
+        "walk_forward": {
+          "passed": true,
+          "mean_logloss": 0.6642273195163187
+        },
+        "grade_stability": {
+          "passed": true,
+          "shifts": {
+            "S": 0.09,
+            "A": 0.04,
+            "B": 0.77,
+            "C": 3.59,
+            "D": 2.77
+          }
+        }
+      },
+      "build": {
+        "variant": "covariate",
+        "champion_offsets": false,
+        "lane_bt": true
+      },
+      "blocks": {
+        "base": 60.0
+      }
+    },
+    "9": {
+      "build": {
+        "variant": "covariate",
+        "champion_offsets": false,
+        "lane_bt": true
+      },
+      "trained_through": "2026-08-14",
+      "n_games": 92006,
+      "blocks": {
+        "base": 60.0
+      },
+      "shrinkage_k": 20.0,
+      "weights": {
+        "top": {
+          "laning": 0.685,
+          "combat": 0.0787,
+          "vision": 0.0371
+        },
+        "jng": {
+          "laning": 0.4484,
+          "combat": 0.1575,
+          "vision": 0.0912
+        },
+        "mid": {
+          "laning": 0.6764,
+          "combat": 0.1184,
+          "vision": 0.0662
+        },
+        "bot": {
+          "laning": 0.6378,
+          "combat": 0.2449,
+          "vision": 0.1483
+        },
+        "sup": {
+          "lane": 0.3587,
+          "playmaking": 0.3493,
+          "utility": -0.0705,
+          "vision": 0.1099
+        }
+      },
+      "walk_forward": {
+        "n_windows": 81,
+        "mean_logloss": 0.6642094440332739,
+        "baseline_logloss": 0.693147
+      },
+      "gates": {
+        "weight_sanity": {
+          "passed": true,
+          "issues": []
+        },
+        "walk_forward": {
+          "passed": true,
+          "mean_logloss": 0.6642094440332739
+        },
+        "grade_stability": {
+          "passed": true,
+          "shifts": {
+            "S": 0.02,
+            "A": 0.03,
+            "B": 0.01,
+            "C": 0.05,
+            "D": 0.01
+          }
+        }
+      }
+    }
+  }
+}

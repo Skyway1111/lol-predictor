@@ -1,0 +1,190 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "league-predictor"
+version = "0.1.0"
+description = "LoL professional match outcome predictor"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+# Runs from a clone (see [tool.setuptools.packages.find]); PyPI rejects this classifier.
+classifiers = ["Private :: Do Not Upload"]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "lightgbm>=4.0",
+    "scikit-learn>=1.3",
+    "requests>=2.31",
+    "click>=8.1",
+    "fastapi>=0.110",
+    "pydantic>=2.0",
+    "uvicorn>=0.29",
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+    "torch>=2.2",
+    "scipy>=1.11",
+    "psutil>=5.9",
+    "duckdb>=1.5.4",
+]
+
+[project.optional-dependencies]
+# tests/conftest.py bounds xdist's `auto` by memory; use `-n 0` for serial debugging.
+dev = ["pytest>=7.4", "pytest-cov>=4.1", "pytest-xdist>=3.5"]
+# The champion wiki scrape behind scripts/champion_attributes; never on the serving path.
+wiki = ["beautifulsoup4>=4.12", "lxml>=5.0", "natsort>=8.4", "slpp>=1.2", "dataclasses-json>=0.6"]
+# ruff is pinned: 0.16 widened RUF100. tach checks package boundaries (tach.toml).
+lint = ["ruff==0.15.10", "deptry>=0.25", "pyright>=1.1", "tach>=0.35"]
+
+[project.scripts]
+lol-predict = "league_predictor.orchestrator.cli:main"
+
+[tool.setuptools.packages.find]
+# Editable installs only: config.py resolves data/ and models/ from the repo root.
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+# Fast lane by default; `-m ""` adds the slow real-DB smokes and real-CSV ingests.
+addopts = '-m "not slow" -n auto'
+markers = [
+    "slow: real-DB smokes and real-CSV ingests",
+    "real_original_cache: opt out of the autouse data/cache isolation — ONLY for real-production-DB smokes that deliberately share the production original-family cache",
+]
+filterwarnings = [
+    # Upstream torch (torch/jit/_script.py, gated on Python 3.14+) warns that torch.jit.script is unsupported; we have no torch.jit use of our own -- provenance, not our bug.
+    "ignore:`torch.jit.script` is not supported in Python 3.14:DeprecationWarning",
+]
+
+# --- Quality-gate tool config (consumed by the post-code-write hook) ---
+
+[tool.ruff]
+target-version = "py311"
+src = ["src"]
+# House line width (the codebase wraps ~100, not the 88 default). E501 is not in
+# the lint rule set, so this only steers `ruff format`.
+line-length = 100
+# data/ holds run artifacts and throwaway measurement scripts, never production code.
+# The lolstaticdata dir is vendored third-party code (meraki-analytics) -- kept
+# byte-close to upstream, so it is exempt from our lint/dead-code gates.
+extend-exclude = ["data", "src/league_predictor/draft_grading/champion_attributes/lolstaticdata"]
+# Default rule set (Pyflakes F + pycodestyle E4/E7/E9): real bugs, low noise.
+
+[tool.ruff.lint]
+# Overrules of the simply-elegant plugin gate (its hooks merge this list onto
+# the plugin config). Every entry contradicts a doctrine this repo states;
+# anything else gets fixed, not listed.
+ignore = [
+    "TC001",  # acyclic application imports may stay plain; retain guards for costly or cyclic imports
+    "TC003",  # plain stdlib imports keep small type-annotated modules readable
+    "PLC0415", # function-scope imports are deliberate: heavy deps stay off cold paths (invariant 4) and config resolves at runtime (traps); sightline #35 proves which hide nothing and owns hoisting
+    "TRY003",  # a RAISE names the cause and the explicit opt-in inline (invariant 1); short vanilla args are the opposite of the template
+    "EM101",   # same doctrine: the message lives in the raise, not a variable staged above it
+    "EM102",   # same doctrine, f-string form
+    "N803",    # ML/math notation: X, y, K are the domain's names for these arguments
+    "N806",    # same notation for locals (sklearn/torch convention)
+    "N818",    # operator exceptions name conditions, e.g. LifecycleBusy, without an Error suffix
+    "S101",    # contracts are asserted, not narrated (invariant 3); nothing here runs under python -O
+    "S105",    # "token" is the lifecycle model-id term (contract taxonomy), never a credential
+    "S106",    # same term as a keyword argument
+    "S311",    # random is Monte-Carlo sampling and jitter, never key material
+    "PLR0913", # counts keyword-only args too (verified), so the `*` fix cannot clear it; sightline #55 (positional width) and #14 (data clumps) own this cost mechanism-aware
+    "SLF001",  # same-domain collaborators reach their family's internals by design; boundary discipline is sightline #31/#1's
+    "UP047",   # PEP 695 generics need 3.12; the supported floor is 3.11
+]
+# Report-only: their --fix eats comments (RUF100 the trailing comment after a noqa, and
+# every noqa outside a narrowed --select; PT018 the comment on a split assert).
+unfixable = ["RUF100", "PT018"]
+
+[tool.ruff.lint.per-file-ignores]
+# Lifecycle hooks share signatures even when a model does not consume every input.
+"src/league_predictor/lifecycle/**" = ["ARG002"]
+# Fixtures construct naive-UTC dataset values (the db.writes convention); an
+# aware fixture datetime would not compare against the naive facts domain.
+# S608 in tests: fixture SQL over synthetic schemas, no runtime input.
+"tests/**" = ["DTZ001", "S608"]
+# S608, audited file by file: every runtime value reaches SQL as a
+# bound parameter; interpolated fragments come from repo constants, validated
+# membership, or ?-count placeholder strings (the FilterScope house pattern).
+# EXACT audited files only - a NEW file composing SQL trips the gate until it
+# is audited and added here.
+"src/league_predictor/analytics/player_draft_inputs.py" = ["S608"]
+"src/league_predictor/analytics/player_snapshot.py" = ["S608"]
+"src/league_predictor/analytics/team_snapshot.py" = ["S608"]
+"src/league_predictor/dashboard/common.py" = ["S608"]
+"src/league_predictor/dashboard/routes/champions.py" = ["S608"]
+"src/league_predictor/dashboard/routes/game_detail.py" = ["S608"]
+"src/league_predictor/dashboard/game_rows.py" = ["S608"]
+"src/league_predictor/dashboard/routes/players.py" = ["S608"]
+"src/league_predictor/dashboard/routes/teams.py" = ["S608"]
+"src/league_predictor/dashboard/routes/tournaments.py" = ["S608"]
+"src/league_predictor/dashboard/routes/upcoming.py" = ["S608"]
+"src/league_predictor/db/asof.py" = ["S608"]
+"src/league_predictor/db/draft_scores_read.py" = ["S608"]
+"src/league_predictor/db/facts_prefix.py" = ["S608"]
+"src/league_predictor/db/names.py" = ["S608"]
+"src/league_predictor/db/predictions_read.py" = ["S608"]
+"src/league_predictor/db/registry.py" = ["S608"]
+"src/league_predictor/db/writes.py" = ["S608"]
+"src/league_predictor/draft_grading/coverage.py" = ["S608"]
+"src/league_predictor/draft_grading/draft_scoring.py" = ["S608"]
+"src/league_predictor/draft_grading/grader/features.py" = ["S608"]
+"src/league_predictor/draft_grading/player_pick_scoring.py" = ["S608"]
+"src/league_predictor/draft_grading/state.py" = ["S608"]
+"src/league_predictor/ingestion/player_reconciler.py" = ["S608"]
+"src/league_predictor/lifecycle/predictions.py" = ["S608"]
+"src/league_predictor/postdraft/coverage.py" = ["S608"]
+"src/league_predictor/predraft/cleaning.py" = ["S608"]
+"src/league_predictor/predraft/features/snapshots/compute.py" = ["S608"]
+"src/league_predictor/predraft/features/snapshots/extended_play.py" = ["S608"]
+"src/league_predictor/predraft/features/snapshots/infrastructure.py" = ["S608"]
+"src/league_predictor/predraft/ratings/impact_operations.py" = ["S608"]
+"src/league_predictor/predraft/ratings/impact_scoring.py" = ["S608"]
+"src/league_predictor/predraft/ratings/player_impact/fit.py" = ["S608"]
+"src/league_predictor/predraft/ratings/player_performance_prefix.py" = ["S608"]
+"src/league_predictor/predraft/ratings/player_performance.py" = ["S608"]
+"src/league_predictor/predraft/ratings/player_scoring.py" = ["S608"]
+"src/league_predictor/predraft/ratings/skill_filter/corpus_build.py" = ["S608"]
+"src/league_predictor/predraft/ratings/skill_filter/operations.py" = ["S608"]
+"src/league_predictor/predraft/ratings/team_composite.py" = ["S608"]
+"src/league_predictor/upcoming/service.py" = ["S608"]
+
+[tool.sightline]
+# Vendored third-party code (meraki-analytics), kept byte-close to upstream --
+# the same exemption ruff's extend-exclude gives it.
+excludes = ["src/league_predictor/draft_grading/champion_attributes/lolstaticdata"]
+
+# `ruff format` (default style at the line-length above) is the enforced formatter,
+# repo-wide minus the extend-exclude dirs. The gate is `ruff format --check .`
+# (whole-tree in CI/manual runs; the post-code-write hook runs it on changed files).
+
+[tool.deptry]
+# `league_predictor` and `scripts` are local code, not third-party deps.
+known_first_party = ["league_predictor", "scripts"]
+
+# Each entry is a documented exception, not a baseline dump.
+[tool.deptry.per_rule_ignores]
+# Lint/test tooling: declared so `pip install -e ".[lint]"` works, never imported.
+# lxml: BeautifulSoup parser backend in the vendored lolstaticdata scraper --
+# selected via the string BeautifulSoup(html, "lxml"), so never import'd.
+DEP002 = ["ruff", "deptry", "pyright", "tach", "pytest", "pytest-cov", "pytest-xdist", "lxml"]
+# playwright: guarded optional browser import in the draft scraper. Listed under
+# both rules because it flips DEP001 <-> DEP003 depending on whether the local
+# venv happens to have playwright installed (e.g. for screenshot tooling).
+DEP001 = ["playwright"]
+# bs4/dataclasses_json/natsort/slpp are the vendored lolstaticdata parser's
+# imports, declared in the `wiki` extra (build-time scrape tooling, never on
+# the serving path).
+DEP003 = ["playwright", "bs4", "dataclasses_json", "natsort", "slpp"]
+
+[tool.pyright]
+include = ["src"]
+# Vendored third-party code (meraki-analytics), kept byte-close to upstream --
+# same exemption ruff gives it.
+exclude = ["src/league_predictor/draft_grading/champion_attributes/lolstaticdata"]
+typeCheckingMode = "basic"
+# The supported floor: src imports 3.11 stdlib (tomllib, datetime.UTC) unguarded.
+pythonVersion = "3.11"
+venvPath = "."
+venv = ".venv"

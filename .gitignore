@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+.tmp/
+scratch/
+*.csv
+*.log
+
+# The facts DB, caches, and downloads; the draft fit's power grid and Impact's prior ship.
+data/*
+!data/power_curves.db
+!data/stat_context_weights.json
+
+# Pipeline lock, a fit's private staging, and the rating replay cache (update rewrites it)
+models/.pipeline.lock
+models/rating/rating.index.pkl
+models/*/.staging.*
+models/*/.backup.*
+
+# Secrets and machine-local config
+.env
+panda.env
+*.pem
+
+# Agent-session workspace
+.worktrees/
+.claude/
