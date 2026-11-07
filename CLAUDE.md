@@ -34,7 +34,7 @@ src/league_predictor/
   <root>.py       config, clock, artifacts, probability, metrics: dependency leaves
 scripts/champion_attributes/   rebuilds the draft model's champion knowledge stores
 models/<model>/   the current artifact family of each model
-data/             the SQLite facts DB and caches; only power_curves.db is in git
+data/             the facts DB and caches; git holds only power_curves.db and stat_context_weights.json
 ```
 
 ## Invariants
